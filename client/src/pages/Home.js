@@ -2,7 +2,9 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='introduction' style={{backgroundImage: `url(./bg.svg)`}}>
+
+    </div>
   )
 }
 
