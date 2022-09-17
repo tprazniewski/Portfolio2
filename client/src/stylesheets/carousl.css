@@ -14,6 +14,14 @@
     animation: gallery 20s linear infinite;
 
 }
+.gallery:hover {
+    animation-play-state: paused;
+
+}
+.gallery:hover svg {
+    opacity: 0.2;
+    
+}
 
 .gallery span {
     height: 100%;
@@ -33,6 +41,14 @@
     /* top: 0;
     left: 0; */
     object-fit: cover;
+    -webkit-box-reflect:  below 1px linear-gradient(transparent transparent, rgba(0, 0, 0, 0.336)) ;
+}
+
+.gallery span svg:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 1s;
+    opacity: 1;
 }
 
 @keyframes gallery {
