@@ -1,0 +1,46 @@
+.carousel-parent {
+    height: 100vh;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: gallery 20s linear infinite;
+
+}
+
+.gallery span {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+
+    /* top: 0;
+    left: 0; */
+}
+
+.gallery span svg {
+    height: 100%;
+    width: 100%;
+    /* top: 0;
+    left: 0; */
+    object-fit: cover;
+}
+
+@keyframes gallery {
+    
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}

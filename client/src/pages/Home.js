@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheets/home.css";
 import Header from '../components/Header'
+import Carouse from "../components/Carouse";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Carouse/>
     </div>
   );
 }
