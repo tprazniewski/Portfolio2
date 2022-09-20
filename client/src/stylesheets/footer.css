@@ -1,0 +1,13 @@
+.footer-content{
+    background-color: #071a28;
+    text-align: center;
+    color: white;
+}
+.footer svg{
+    color: white;
+}
+.footer svg:hover{
+    color: #297ea4;
+    transform: scale(1.4);
+    cursor: pointer;
+}
