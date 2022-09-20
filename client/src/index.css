@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #EBECF0;
 }
 *{
     margin:0;
@@ -11,4 +12,10 @@ body {
 
 .font-bold {
     font-weight: bold;
+}
+
+.n-box1 {
+    border-radius: 41px;
+    box-shadow:  5px 5px 0px #c3c3c3,
+                 -5px -5px 0px #fdfdfd;
 }

@@ -7,7 +7,7 @@ import {DiRuby, DiNodejs} from 'react-icons/di'
 function Carouse() {
   return (
     <div>
-        <div className='carousel-parent position-relative' style={{ backgroundImage: `url(./bg.svg)` }}> 
+        <div className='carousel-parent position-relative' style={{ backgroundColor: `#071a28` }}> 
             <h1 className='position-absolute text-center top-0 start-0 end-0 mt-5'> Technologies </h1>
             <div className='gallery'>
                 <span style={{'--i':1}}>
