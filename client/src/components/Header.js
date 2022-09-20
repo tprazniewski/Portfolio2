@@ -18,7 +18,7 @@ function Header() {
 
       <ul className={`${showHeader ? 'show-header' : 'hide-header'}`}>
           <li className={`${path=='/' && 'active'}`}><Link to='/'>Home</Link></li>
-          <li className={`${path=='/projects' && 'active'}`}><Link to='projects'>Projects</Link></li>
+          <li className={`${path=='/projects' && 'active'}`}><Link to='/projects'>Projects</Link></li>
           <li className={`${path=='/contact' && 'active'}`}><Link to='/contact'>Contact</Link></li>
       </ul>
     </div>

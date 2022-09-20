@@ -22,6 +22,10 @@ function Projects() {
           </div>
         </div>
       </div>
+      <div className='container projects-list'>
+        <h3> Take a look of my projects</h3>
+        <hr/>
+      </div>
     </div>
 
   )

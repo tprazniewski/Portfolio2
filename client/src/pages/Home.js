@@ -22,8 +22,8 @@ function Home() {
       </div>
       <div className="container">
         <div className="row justify-content-start">
-          <div className="col-md-4">
-            <div className="n-box1 p-5">
+          <div className="col-md-4 ">
+            <div className="n-box1 p-5 test">
               <h1>  Yes You are right...</h1>
               <br/>
               <p> I am a JavaScript buff...</p>

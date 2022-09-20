@@ -15,7 +15,17 @@ body {
 }
 
 .n-box1 {
+    transition: 0.5s;
+
     border-radius: 41px;
     box-shadow:  5px 5px 0px #c3c3c3,
                  -5px -5px 0px #fdfdfd;
+}
+
+
+.n-box1:hover{
+    color: white;
+    background-color: #071a28;
+    transform: scale(1.1);
+    box-shadow: none;
 }
