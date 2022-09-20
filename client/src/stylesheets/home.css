@@ -24,11 +24,11 @@
 
 }
 
-.primary-button {
-    background-color: white;
-    height: 45px;
-    border-radius: 20px;
-    border: none;
+.primary-button{
+    background-color:white;
+    height:45px;
+    border-radius:25px;
+    border:none;
 }
 
 .devstack{

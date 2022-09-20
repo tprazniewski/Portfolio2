@@ -1,0 +1,13 @@
+.primary-button{
+    background-color:white;
+    height:45px;
+    border-radius:25px;
+    border:none;
+    width: 50%;
+}
+
+.projects-intro .primary-button{
+    background-color: blue;
+    color:white
+
+}
