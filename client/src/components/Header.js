@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const [showHeader, setShowHeader] = useState(false);
+
+  const path = window.location.pathname
+
   return (
     <div className="header">
       {showHeader 
@@ -14,10 +17,9 @@ function Header() {
       )}
 
       <ul className={`${showHeader ? 'show-header' : 'hide-header'}`}>
-        <li> <a href='http://localhost:3000/'>Home</a> </li>
-        <li> <a href='http://localhost:3000/projects'>Projects</a> </li>
-        <li> <a href='http://localhost:3000/contact'>Contact</a> </li>
-
+          <li className={`${path=='/' && 'active'}`}><Link to='/'>Home</Link></li>
+          <li className={`${path=='/projects' && 'active'}`}><Link to='projects'>Projects</Link></li>
+          <li className={`${path=='/contact' && 'active'}`}><Link to='/contact'>Contact</Link></li>
       </ul>
     </div>
   );
