@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/admin'>
+      <BrowserRouter >
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
