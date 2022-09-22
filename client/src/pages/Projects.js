@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import '../stylesheets/projects.css'
 import {MdOutlineLaptopChromebook} from 'react-icons/md'
+import projectData from '../data/projectDAta'
 
 function Projects() {
   return (
@@ -25,7 +26,28 @@ function Projects() {
       <div className='container projects-list'>
         <h3> Take a look of my projects</h3>
         <hr/>
+
+        <div className="row">
+
+        {projectData.map(project=>{
+            return <div className="col-md-4">
+                <div className="project">
+                    <img src={project.image} alt="" />
+                    <div className="project-content">
+                        <h3>{project.title}</h3>
+                        <hr />
+                        <p>{project.description}</p>
+                        <button className='primary-button'>DEMO</button>
+                    </div>
+                </div>
+            </div>
+        })}
+
+</div>
+
       </div>
+
+
     </div>
 
   )
