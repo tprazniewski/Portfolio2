@@ -24,9 +24,23 @@
     margin-top: 25px;
 }
 
-.project-content{
-    /* position: absolute; */
+ .project-content{
+    position: absolute;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     top: 0;
     left: 0;
+    padding: 20px;
+
+    
+}
+.project:hover > .project-content>p{
+    opacity: 1;
+}  
+
+.project-content>p {
+    opacity: 0;
 
 }

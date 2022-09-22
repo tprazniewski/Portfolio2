@@ -28,7 +28,7 @@ const projectsdata = [
       link: "/",
     },
     {
-      title: "SHEYGRAM",
+      title: "GRAM",
       image: "./socialmedia.svg",
       description:
         "An ecommerce application developed using react , node , redux and mongodb",
