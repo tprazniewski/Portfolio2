@@ -16,9 +16,11 @@ function Home() {
           <div className="intro-content d-flex justify-content-between ">
             <p>
               {" "}
-              Mern Stack <br /> Full Stack Developer{" "}
+              Mern <br /> Full Stack <br /> Developer{" "}
             </p>
-            <button className="primary-button font-bold"> Get Started </button>
+            <a href="TomaszCV.pdf" download="Tomasz Prazniewski.pdf">
+              <button style={{ padding: "10px" }}>Get CV</button>
+            </a>
           </div>
         </div>
       </div>
